@@ -81,3 +81,4 @@ int perfect(int num) {
     return (num_2 == sum_1);
 }
 
+
