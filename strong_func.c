@@ -21,12 +21,10 @@ int main() {
 int strong(int num) {
     int i, sum=0,fact,n,rem;
     num=n;
-    while(n>0)
-    {
+    while(n>0) {
         rem=n%10;
         fact=1;
-        for(i=1;i<=rem;i++)
-        {
+        for(i=1;i<=rem;i++) {
             fact=fact*i;
         }
         sum=sum+fact;
